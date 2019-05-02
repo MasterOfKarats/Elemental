@@ -6,7 +6,7 @@ body{
 }
 header{
     background: white;
-    padding: 30px;
+    padding: 20px;
 }
 header > h1{
     color: #203e6d;
@@ -26,21 +26,27 @@ header > h1{
 }
 .win{
     font-family: sans-serif;
-    color: white;
     text-align: center;
+}
+.win>p{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: orange;
 }
 .userScore{
     background-color: orange;
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     font-family: sans-serif;
     position: center;
 }
 .result{
-    font-size: 40px;
-    color: white;
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    color: red;
 }
 .result>p{
     text-align: center;

@@ -1,10 +1,12 @@
 
 var score = 0
+
 const userScore_span = document.getElementById("scoreA")
 const water_div = document.getElementById("water")
 const fire_div = document.getElementById("fire")
 const air_div = document.getElementById("air")
-const choices = ["water", "fire","air"]
+
+
   function main(){
     water_div.addEventListener('click', function () {
             game(1)
@@ -32,15 +34,17 @@ function userVsComp(userChoice, compChoice = computersTurn()) {
     console.log(userChoice)
     if((compChoice == 1 && userChoice ==1) ||(compChoice == 2 && userChoice ==2) || (compChoice == 3 && userChoice ==3))
     {
-        console.log("its a tie")
+        document.getElementById("winP").innerText = "It is a tie"
+        console.log("Its a tie")
     }
     else if((compChoice ==1 && userChoice ==2) || (compChoice ==2 && userChoice ==3) || (compChoice ==3 && userChoice ==1))
     {
-        console.log("computer wins")
+        document.getElementById("winP").innerText = "Computer wins this round"
+        console.log("Computer wins")
     }
     else if((compChoice ==2 && userChoice ==1) || (compChoice ==3 && userChoice ==2) || (compChoice ==1 && userChoice ==3))
     {
-
+        document.getElementById("winP").innerText = "You win this round"
         console.log("You win")
         score += 1
     }
