@@ -1,4 +1,4 @@
-print("testing to push take 2")
+
 var score = 0
 const userScore_span = document.getElementById("scoreA")
 const water_div = document.getElementById("water")
