@@ -1,4 +1,4 @@
-
+print("testing to push")
 var score = 0
 const userScore_span = document.getElementById("scoreA")
 const water_div = document.getElementById("water")
