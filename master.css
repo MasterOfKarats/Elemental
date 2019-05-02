@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #203e6d ;
+}
+header{
+    background: white;
+    padding: 30px;
+}
+header > h1{
+    color: #203e6d;
+    text-align: center;
+    font-family: sans-serif;
+}
+.score{
+    margin: 20px;
+    border: 2px solid white;
+    width: 150px;
+    color: white;
+    font-size: 35px ;
+    padding: 15px 15px;
+    font-family: sans-serif;
+    text-align: center;
+    position: center;
+}
+.win{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.userScore{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    position: center;
+}
+.result{
+    font-size: 40px;
+    color: white;
+}
+.result>p{
+    text-align: center;
+    font-family: sans-serif;
+}
+#scoreA{
+    position: center;
+    top: 10px;
+}
+.yc{
+    display: inline-block;
+    text-align: center;
+}
+.choices{
+    display: inline-block;
+    align-content: center;
+    border: 4px;
+    margin: 0 60px;
+    border-radius: 20%;
+    padding: 10px;
+    ;
+
+}
+.choices:hover{
+    cursor: pointer;
+
+}
